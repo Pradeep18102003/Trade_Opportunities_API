@@ -1,6 +1,6 @@
 # 📈 Trade Opportunities API
 
-An automated AI research assistant built with **FastAPI**. This application dynamically scrapes the web for the latest market news in a specified Indian sector, and uses the **Google Gemini 1.5 Flash** model to generate a structured Markdown report highlighting key trade opportunities, market drivers, and potential risks.
+An automated AI research assistant built with **FastAPI**. This application dynamically scrapes the web for the latest market news in a specified Indian sector, and uses the **Google Gemini 2.5 Flash** model to generate a structured Markdown report highlighting key trade opportunities, market drivers, and potential risks.
 
 Built as a lightweight, in-memory, zero-database application prioritizing **speed, security, and separation of concerns.**
 
@@ -91,7 +91,7 @@ We have included a simple Python script that acts as a client. It automatically 
 ### Method 2: Using the Interactive Browser Interface (Swagger UI)
 FastAPI provides a built-in UI to test endpoints manually.
 
-- Open your browser and navigate to https://www.google.com/search?q=http://127.0.0.1:8000/docs.
+- Open your browser and navigate to https://127.0.0.1:8000/docs.
 
 Authenticate:
 
