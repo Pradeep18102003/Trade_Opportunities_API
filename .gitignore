@@ -1,0 +1,32 @@
+# Environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment Variables (CRITICAL: Never commit secrets)
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Logs and databases (even though you aren't using a DB, good practice)
+*.log
+*.sqlite3
+*.db

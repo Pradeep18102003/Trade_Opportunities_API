@@ -1,0 +1,11 @@
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+class Settings(BaseSettings):
+    GEMINI_API_KEY: str
+    SECRET_KEY: str
+    ALGORITHM: str = "HS256"
+
+    # Modern Pydantic V2 way to load .env files
+    model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
+
+settings = Settings()
